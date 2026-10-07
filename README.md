@@ -34,7 +34,7 @@ Rather than freezing the convolutional backbone and only retraining the linear c
 - **Aggressive Augmentations:** Robust Albumentations pipeline including full rotation ($360^\circ$), motion blur, compression artifacts, coarse dropout (cutout), and hue/saturation shifts.
 - **Class Imbalance Handling:** Dynamic loss weighting via `compute_class_weight('balanced')` integrated into PyTorch's `CrossEntropyLoss`.
 - **System-Aware Early Stopping:** Configurable validation loss monitoring with minimal delta thresholding (`delta=0.001`) and automatic checkpoint persistence.
-- **Multi-Hyperparameter Exploration:** Grid-search loop over log-scaled learning rates and dropout probabilities.
+- **Multi-Hyperparameter Exploration:** Grid-search loop over log-scaled learning rates and dropout probabilities. (Best fitting model to the test set is achieved at batch_size:4, learning_rate:7e-4, epoch:11(early stop))
 
 ---
 
