@@ -1,0 +1,31 @@
+==========================================
+Project-Specific Datasets & Outputs
+==========================================
+Raw dataset directory
+Chickens_RAW/ data/ datasets/
+Trained model weights and checkpoints
+checkpoints/ *.pth *.pt *.ckpt *.onnx *.tflite
+Training logs, runs, and experiment artifacts
+runs/ logs/ results/ output/ wandb/ *.log
+Dataset archives
+*.zip *.tar *.tar.gz *.rar *.7z
+==========================================
+Python & Bytecode
+==========================================
+pycache/ *.py[cod] *$py.class *.so .Python build/ develop-eggs/ dist/ downloads/ eggs/ .eggs/ lib/ lib64/ parts/ sdist/ var/ wheels/ *.egg-info/ .installed.cfg *.egg
+==========================================
+Virtual Environments
+==========================================
+venv/ .venv/ env/ ENV/ env.bak/ venv.bak/
+==========================================
+IDE & Editor Settings
+==========================================
+.vscode/ !.vscode/settings.json !.vscode/tasks.json !.vscode/launch.json !.vscode/extensions.json .idea/ *.sublime-project *.sublime-workspace *.swp *.swo *~
+==========================================
+Jupyter Notebook Checkpoints
+==========================================
+.ipynb_checkpoints /.ipynb_checkpoints/
+==========================================
+Operating System Artifacts
+==========================================
+.DS_Store .DS_Store? ._* .Spotlight-V100 .Trashes ehthumbs.db Thumbs.db
